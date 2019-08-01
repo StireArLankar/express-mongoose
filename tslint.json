@@ -6,7 +6,9 @@
   ],
   "jsRules": {},
   "rules": {
-      "trailing-comma": [ false ]
+      "trailing-comma": [ false ],
+      "ordered-imports": [ false ],
+      "object-literal-sort-keys": [ false ]
   },
   "rulesDirectory": [],
   "linterOptions": {
