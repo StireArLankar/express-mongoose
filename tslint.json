@@ -1,0 +1,19 @@
+{
+  "defaultSeverity": "warning",
+  "extends": [
+      "tslint:recommended",
+      "tslint-config-standard"
+  ],
+  "jsRules": {},
+  "rules": {
+      "trailing-comma": [ false ]
+  },
+  "rulesDirectory": [],
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.{ts,tsx,js}",
+      "node_modules/**/*",
+      "coverage/**/*.{js,ts,tsx}"
+    ]
+  }
+}
